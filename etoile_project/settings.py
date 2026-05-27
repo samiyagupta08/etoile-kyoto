@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     # Custom apps
     'home.apps.HomeConfig',
     'menu.apps.MenuConfig',
+    'reservations.apps.ReservationsConfig',
     
 ]
 

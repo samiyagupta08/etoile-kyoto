@@ -1,6 +1,6 @@
 from django.db import models
 
-class MenuItem(models.fields.Field):
+class MenuItem(models.Model):
     CATEGORY_CHOICES = [
         ('Sushi', 'Sushi'),
         ('Ramen', 'Ramen'),

@@ -1,7 +1,5 @@
 from django.shortcuts import render
 from menu.models import MenuItem
-from reviews.models import Review
-from gallery.models import GalleryImage
 
 def index(request):
     featured_dishes = MenuItem.objects.filter(featured=True)[:4]

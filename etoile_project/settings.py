@@ -28,9 +28,7 @@ INSTALLED_APPS = [
     # Custom apps
     'home.apps.HomeConfig',
     'menu.apps.MenuConfig',
-    'reservations.apps.ReservationsConfig',
-    'gallery.apps.GalleryConfig',
-    'reviews.apps.ReviewsConfig',
+    
 ]
 
 MIDDLEWARE = [
